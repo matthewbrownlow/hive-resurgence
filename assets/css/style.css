@@ -21,3 +21,11 @@ body {
 h1, h2 {
     font-family: Oxygren, sans-serif;
 }
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 75px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px 0;
+}
