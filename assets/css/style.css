@@ -20,12 +20,52 @@ body {
 /* header and logo */
 h1, h2 {
     font-family: Oxygren, sans-serif;
+    font-weight: 200;
+    color: #3a3a3a;
+}
+
+h1 > span {
+    color: #daa520;
 }
 
 header {
     background-color: rgba(255, 255, 255, 0.9);
-    height: 75px;
+    line-height: 75px;
+    height: 80px;
     position: sticky;
     top: 0;
     box-shadow: 0 0 10px 0;
+}
+
+#hive-resurgence-logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 50px;
+}
+
+
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #daa520;
+    color: #daa520;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
