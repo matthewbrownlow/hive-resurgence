@@ -26,6 +26,7 @@ h1, h2 {
 
 h1 > span {
     color: #daa520;
+    padding-right: 10px;
 }
 
 header {
@@ -71,8 +72,11 @@ header {
 }
 
 
-/* zoom animation */
+/* zoom effect */
 .zoom:hover {
     transition: transform .2s;
     transform: scale(1.05);
 }
+
+
+/* hero image */
