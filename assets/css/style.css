@@ -101,3 +101,34 @@ header {
     padding-top: 25px;
     padding-left: 20%;
 }
+
+
+/* footer */
+footer {
+    height: 250px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 5%;
+    padding: 1%;
+    color: #3a3a3a;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i:hover {
+    color: #daa520;
+}
+
+#legal {
+    text-align: center;
+    font-size: 14px;
+    padding: 1%;
+}
