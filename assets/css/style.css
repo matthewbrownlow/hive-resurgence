@@ -80,3 +80,7 @@ header {
 
 
 /* hero image */
+#hero-image {
+    background: url('../images/home/hero-image.jpg') no-repeat center center;
+    height: 500px;
+}
