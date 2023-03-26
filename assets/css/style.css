@@ -35,7 +35,7 @@ header {
     height: 80px;
     position: sticky;
     top: 0;
-    box-shadow: 0 0 10px 0;
+    box-shadow: 0 0 10px 0 #888888;
 }
 
 #hive-resurgence-logo {
@@ -84,3 +84,12 @@ header {
     background: url('../images/home/hero-image.jpg') no-repeat center center;
     height: 500px;
 }
+
+
+/* resurgence definition */
+#resurgence-definition {
+    text-align: center;
+    padding: 10px;
+}
+
+
