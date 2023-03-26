@@ -69,3 +69,10 @@ header {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+/* zoom animation */
+.zoom:hover {
+    transition: transform .2s;
+    transform: scale(1.05);
+}
