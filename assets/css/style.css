@@ -93,3 +93,11 @@ header {
 }
 
 
+/* about */
+#about {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 #888888;
+    height: 500px;
+    padding-top: 25px;
+    padding-left: 20%;
+}
