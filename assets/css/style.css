@@ -86,9 +86,11 @@ header {
 }
 
 #hero-image {
-    background: url('../images/home/hero-image.jpg') no-repeat center center;
+    background: url('../images/home/hero-image.jpg');
     height: 500px;
-    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -112,24 +114,25 @@ header {
 }
 
 #about-content {
-    width: 1450px;
+    width: 1400px;
     margin: 0 auto;
-    padding: 25px 20px 25px 20px;
+    padding: 40px 40px 25px 20px;
 }
 
 #about-content h1 {
-    font-size: 400%;
+    font-size: 220%;
     text-align: center;
 }
 
 #about-content p {
-    font-size: 200%;
+    font-size: 150%;
+    /* font-family: lato, sans-serif; */
 }
 
 
 /* footer */
 footer {
-    height: 250px;
+    height: 150px;
 }
 
 .social-networks {
@@ -138,8 +141,9 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 5%;
-    padding: 1%;
+    /* margin: 1%; */
+    padding: 50px 40px 10px 40px;
+
     color: #3a3a3a;
 }
 
@@ -154,5 +158,5 @@ footer {
 #legal {
     text-align: center;
     font-size: 14px;
-    padding: 1%;
+    padding: 10px 0 20px 0;
 }
