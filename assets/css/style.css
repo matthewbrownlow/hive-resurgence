@@ -142,26 +142,50 @@ header {
     text-align: center;
 }
 
-/* issues - habitat loss */
-#habitat-loss-box {
+
+/* issue - box and container */
+.issue-box {
     background-color: #ffffff;
     box-shadow: 0 0 10px #888888;
     width: 100%;
     height: 500px;
 }
 
-#habitat-loss-container {
+.issue-container {
     width: 1600px;
     height: 500px;
     margin: 0 auto;
     position: relative;
 }
 
-#habitat-loss-content {
+
+/* issue - content left */
+.content-left {
     width: 700px;
     padding: 40px;
-    }
+}
 
+
+/* issue - content right */
+.content-right {
+    width: 700px;
+    padding: 40px;
+    float: right;
+}
+
+
+/* issue - break container and content */
+#break-container {
+    width: 100%;
+    height: 150px;
+}
+
+#break-content {
+
+}
+
+
+/* issues - habitat loss image */
 #habitat-loss-image {
     background: url('../images/issues/habitat-loss.jpg');
     background-position: center;
@@ -175,38 +199,7 @@ header {
 }
 
 
-/* issues - break 1 */
-#break-one-container {
-    width: 100%;
-    height: 150px;
-}
-
-#break-one-content {
-
-}
-
-
-/* issues - pollution */
-#pollution-box {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px #888888;
-    width: 100%;
-    height: 500px;
-}
-
-#pollution-container {
-    width: 1600px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-}
-
-#pollution-content {
-    width: 700px;
-    padding: 40px;
-    float: right;
-}
-
+/* issues - pollution image */
 #pollution-image {
     background: url('../images/issues/pollution.jpg');
     background-position: center;
@@ -220,37 +213,7 @@ header {
 }
 
 
-/* issues - break 2 */
-#break-two-container {
-    width: 100%;
-    height: 150px;
-}
-
-#break-two-content {
-
-}
-
-
-/* issues - disease */
-#disease-box {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px #888888;
-    width: 100%;
-    height: 500px;
-}
-
-#disease-container {
-    width: 1600px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-}
-
-#disease-content {
-    width: 700px;
-    padding: 40px;
-    }
-
+/* issues - disease image */
 #disease-image {
     background: url('../images/issues/disease.jpeg');
     background-position: center;
