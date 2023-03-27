@@ -140,7 +140,7 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    /* margin: 1%; */
+    margin: 1%;
     padding: 50px 40px 10px 40px;
 
     color: #3a3a3a;
@@ -238,5 +238,15 @@ footer {
 
     .mobile-size {
         clear: both;
+    }
+
+    /* footer */
+    .social-networks i {
+        padding: 20px;
+    }
+
+    #legal {
+        text-align: center;
+        font-size: 12px;
     }
 }
