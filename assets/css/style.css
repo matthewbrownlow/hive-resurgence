@@ -159,7 +159,7 @@ header {
 
 #habitat-loss-content {
     width: 700px;
-    padding: 5%;
+    padding: 40px;
     }
 
 #habitat-loss-image {
@@ -203,7 +203,7 @@ header {
 
 #pollution-content {
     width: 700px;
-    padding: 5%;
+    padding: 40px;
     float: right;
 }
 
@@ -232,27 +232,27 @@ header {
 
 
 /* issues - disease */
-#section-3-box {
+#disease-box {
     background-color: #ffffff;
     box-shadow: 0 0 10px #888888;
     width: 100%;
     height: 500px;
 }
 
-#section-3-container {
+#disease-container {
     width: 1600px;
     height: 500px;
     margin: 0 auto;
     position: relative;
 }
 
-#section-3-content {
+#disease-content {
     width: 700px;
-    padding: 5%;
+    padding: 40px;
     }
 
-#section-3-image {
-    background: url('../images/issues/');
+#disease-image {
+    background: url('../images/issues/disease.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
