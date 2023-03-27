@@ -114,14 +114,13 @@ header {
 }
 
 #about-content {
-    width: 1400px;
     margin: 0 auto;
     padding: 40px 40px 25px 20px;
+    text-align: center;
 }
 
 #about-content h1 {
     font-size: 220%;
-    text-align: center;
 }
 
 #about-content p {
@@ -159,4 +158,85 @@ footer {
     text-align: center;
     font-size: 14px;
     padding: 10px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* for larger to medium screen sizes from tablet, 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    /* header */
+    header {
+        height: 150px;
+    }
+    
+    /* navigation links */
+    #menu {
+        margin-left: 50px;
+        float: left;
+        clear: left;
+    }
+
+}
+
+/* for small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    
+    /* header and logo */
+    header {
+        height: 400px;
+        position: relative;
+    }
+
+    #hive-resurgence-logo {
+        padding-top: 20px;
+    }
+
+    /* navigation links */
+    #menu {
+        font-size: 110%;
+        margin-left: 50px;
+        float: left;
+        clear: both;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mobile-size {
+        clear: both;
+    }
+}
+
+/* for small screen sizes 500px and down */
+@media screen and (max-width: 500px) {
+    
+    /* header and logo */
+    header {
+        height: 290px;
+    }
+
+    #hive-resurgence-logo {
+        font-size: 200%;
+        margin-left: 30px;
+        padding-top: 0;
+    }
+
+    /* navigation links */
+    #menu {
+        font-size: 110%;
+        line-height: 50px;
+        margin-left: 30px;
+    }
+
+    .mobile-size {
+        clear: both;
+    }
 }
