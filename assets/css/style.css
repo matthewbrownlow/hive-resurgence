@@ -227,6 +227,48 @@ header {
 }
 
 
+/* issues - toxic pestisides image */
+#pollution-image {
+    background: url('../images/issues/');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* issues - climate change image */
+#disease-image {
+    background: url('../images/issues/');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* issues - extinction image */
+#pollution-image {
+    background: url('../images/issues/');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
 /* footer */
 footer {
     height: 150px;
