@@ -175,12 +175,12 @@ header {
 
 
 /* issue - break container and content */
-#break-container {
+.break-container {
     width: 100%;
     height: 150px;
 }
 
-#break-content {
+.break-content {
 
 }
 
@@ -202,6 +202,7 @@ header {
 /* issues - pollution image */
 #pollution-image {
     background: url('../images/issues/pollution.jpg');
+    background-color: green;
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
@@ -227,9 +228,9 @@ header {
 }
 
 
-/* issues - toxic pestisides image */
-#pollution-image {
-    background: url('../images/issues/');
+/* issues - toxic pesticides image */
+#toxic-pesticides-image {
+    background: url('../images/issues/toxic-pesticides.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
@@ -242,8 +243,8 @@ header {
 
 
 /* issues - climate change image */
-#disease-image {
-    background: url('../images/issues/');
+#climate-change-image {
+    background: url('../images/issues/climate-change.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
@@ -256,8 +257,8 @@ header {
 
 
 /* issues - extinction image */
-#pollution-image {
-    background: url('../images/issues/');
+#extinction-image {
+    background: url('../images/issues/extinction.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
