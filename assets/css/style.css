@@ -86,15 +86,15 @@ header {
 
 
 /* hero image */
-#hero-image-container {
+#hero-container {
     width: 100%;
     height: 500px;
 }
 
 #hero-image {
-    background: url('../images/home/hero-image.jpg');
+    object-fit: cover;
     height: 500px;
-    background: cover, center, no-repeat;
+    width: 100%;
 }
 
 
@@ -133,28 +133,28 @@ header {
 }
 
 
-/* issues - title */
-#issues-title-container {
+/* issues & resolution - title */
+#title-container {
     width: 100%;
     height: 150px;
 }
 
-#issues-title-content {
+#title-content {
     padding: 25px;
     font-size: xxx-large;
     text-align: center;
 }
 
 
-/* issue - box and container */
-.issue-box {
+/* issue & resolution - box and container */
+.box {
     background-color: #ffffff;
     box-shadow: 0 0 10px #888888;
     width: 100%;
     height: 500px;
 }
 
-.issue-container {
+.container {
     display: flex;
     justify-content: center;
     height: 500px;
@@ -163,19 +163,19 @@ header {
 }
 
 
-/* issue - content and image */
-.issue-content {
+/* issue & resolution - content and image */
+.content {
     width: 50%;
     padding: 40px;
 }
 
-.issue-image {
+.image {
     width: 50%;
     overflow: hidden;
 }
 
 
-/* issue - break */
+/* issue & resolution - break */
 .break-container {
     height: 150px;
     width: 500px;
