@@ -12,7 +12,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #347688;
     background-color: #f5f5f5;
 }
 
@@ -21,7 +21,7 @@ body {
 h1, h2 {
     font-family: Oxygen, sans-serif;
     font-weight: 200;
-    color: #3a3a3a;
+    color: #347688;
 }
 
 h1 > span {
@@ -29,10 +29,15 @@ h1 > span {
     padding-right: 10px;
 }
 
+p {
+    color: #3a3a3a;
+}
+
 header {
     background-color: rgba(255, 255, 255, 0.9);
     line-height: 75px;
     height: 80px;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -89,9 +94,7 @@ header {
 #hero-image {
     background: url('../images/home/hero-image.jpg');
     height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: cover, center, no-repeat;
 }
 
 
@@ -137,7 +140,7 @@ header {
 }
 
 #issues-title-content {
-    padding: 20px 5%;
+    padding: 25px;
     font-size: xxx-large;
     text-align: center;
 }
@@ -152,121 +155,36 @@ header {
 }
 
 .issue-container {
-    width: 1600px;
+    display: flex;
+    justify-content: center;
     height: 500px;
+    max-width: 1600px;
     margin: 0 auto;
-    position: relative;
 }
 
 
-/* issue - content left */
-.content-left {
-    width: 700px;
+/* issue - content and image */
+.issue-content {
+    width: 50%;
     padding: 40px;
 }
 
-
-/* issue - content right */
-.content-right {
-    width: 700px;
-    padding: 40px;
-    float: right;
+.issue-image {
+    width: 50%;
+    overflow: hidden;
 }
 
 
-/* issue - break container and content */
+/* issue - break */
 .break-container {
-    width: 100%;
     height: 150px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .break-content {
-
-}
-
-
-/* issues - habitat loss image */
-#habitat-loss-image {
-    background: url('../images/issues/habitat-loss.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-
-/* issues - pollution image */
-#pollution-image {
-    background: url('../images/issues/pollution.jpg');
-    background-color: green;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: left;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-
-/* issues - disease image */
-#disease-image {
-    background: url('../images/issues/disease.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-
-/* issues - toxic pesticides image */
-#toxic-pesticides-image {
-    background: url('../images/issues/toxic-pesticides.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: left;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-
-/* issues - climate change image */
-#climate-change-image {
-    background: url('../images/issues/climate-change.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-
-/* issues - extinction image */
-#extinction-image {
-    background: url('../images/issues/extinction.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
-    float: left;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    text-align: center;
+    padding: 25px;
 }
 
 
@@ -303,6 +221,11 @@ footer {
 
 
 /* media queries */
+
+/* issue - 1515px wide and down */
+@media screen and (max-width: 1515px) {
+
+}
 
 /* for larger to medium screen sizes from tablet, 1200px wide and down */
 @media screen and (max-width: 1200px) {
