@@ -180,6 +180,7 @@ header {
 .image {
     width: 50%;
     overflow: hidden;
+    text-align: center;
 }
 
 
