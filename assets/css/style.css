@@ -181,6 +181,8 @@ header {
     width: 50%;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -472,6 +474,11 @@ footer {
 
     .mobile-size {
         clear: both;
+    }
+
+    /* issues & resolution */
+    .container {
+        
     }
 
     /* footer */
