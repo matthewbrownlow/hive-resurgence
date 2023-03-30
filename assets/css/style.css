@@ -197,7 +197,7 @@ header {
 }
 
 
-/* home, issue & resolution - fadein annimation */
+/* home, issue & resolution - fade-in annimation */
 .fade-in {
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
@@ -229,6 +229,29 @@ header {
 @-ms-keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+
+/* resolution - buttons */
+a:link {
+    text-decoration: none;
+}
+
+.resolution-button {
+    margin-top: 10px;
+    margin-right: 8px;
+    border-radius: 2px;
+    border-color: #3a3a3a;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #347688;
+    color: #fafafa;
+    display: inline;
+}
+
+.resolution-button:hover {
+   background-color: #daa520;
 }
 
 
@@ -284,11 +307,6 @@ header {
 
  .signup-button:hover {
     background-color: #daa520;
- }
-
- .join-button:hover {
-     background-color: #fafafa;
-     color: #f16c6b;
  }
 
 
