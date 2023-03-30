@@ -451,7 +451,7 @@ footer {
     
     /* header and logo */
     header {
-        height: 290px;
+        height: 400px;
     }
 
     #hive-resurgence-logo {
@@ -478,7 +478,7 @@ footer {
 
     /* issues & resolution */
     .container {
-        
+        display: flex;
     }
 
     /* footer */
