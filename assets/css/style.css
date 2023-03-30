@@ -451,12 +451,12 @@ footer {
     
     /* header and logo */
     header {
-        height: 400px;
+        height: 290px;
     }
 
     #hive-resurgence-logo {
-        font-size: 200%;
-        margin-left: 30px;
+        font-size: 160%;
+        margin: 0 auto;
         padding-top: 0;
     }
 
@@ -469,25 +469,16 @@ footer {
 
     /* home - about */
     #about-container {
-        height: 1050px;
-    }
-
-    .mobile-size {
-        clear: both;
-    }
-
-    /* issues & resolution */
-    .container {
-        display: flex;
+        height: 1350px;
     }
 
     /* footer */
     .social-networks i {
-        padding: 20px;
+        padding: 20px 12px 0px 12px;
     }
 
     #legal {
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
 }
