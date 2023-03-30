@@ -363,11 +363,12 @@ footer {
     }
     
     /* navigation links */
-    #menu {
-        margin-right: 50px;
-        float: none;
+    nav {
         text-align: center;
-        clear: left;
+    }
+    
+    nav ul {
+        display: inline-block;
     }
 
     /* home - about */
@@ -393,15 +394,9 @@ footer {
     /* navigation links */
     #menu {
         font-size: 110%;
-        margin-left: 50px;
-        float: left;
-        clear: both;
+        float: none;
         display: flex;
         flex-direction: column-reverse;
-    }
-
-    .mobile-size {
-        clear: both;
     }
 
     /* home - about */
