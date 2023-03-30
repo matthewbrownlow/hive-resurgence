@@ -232,14 +232,13 @@ header {
 }
 
 
-/* resolution - buttons */
+/* multi-button */
 a:link {
     text-decoration: none;
 }
 
-.resolution-button {
-    margin-top: 10px;
-    margin-right: 8px;
+.multi-button {
+    margin: 4px;
     border-radius: 2px;
     border-color: #3a3a3a;
     padding: 15px 32px 15px 32px;
@@ -250,7 +249,7 @@ a:link {
     display: inline;
 }
 
-.resolution-button:hover {
+.multi-button:hover {
    background-color: #daa520;
 }
 
@@ -466,7 +465,7 @@ footer {
 
     /* home - about */
     #about-container {
-        height: 1000px;
+        height: 1010px;
     }
 
     .mobile-size {
