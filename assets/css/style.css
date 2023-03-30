@@ -351,15 +351,22 @@ footer {
 /* for larger to medium screen sizes from tablet, 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    /* header */
+    /* header and logo */
     header {
         height: 150px;
+    }
+
+    #hive-resurgence-logo {
+        float: none;
+        text-align: center;
+        margin-left: 0;
     }
     
     /* navigation links */
     #menu {
-        margin-left: 50px;
-        float: left;
+        margin-right: 50px;
+        float: none;
+        text-align: center;
         clear: left;
     }
 
