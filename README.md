@@ -40,27 +40,29 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### Hero Image
 
-![](assets/images/README.md/home-hero-image.png)
+![screenshot of the hive resurgence hero image](assets/images/README.md/home-hero-image.png)
 
-- Text
+- The home page includes a photograph of a bee hovering above a white blossom with a predominantly white and light background matching the clean white look of the website.
 
 ### Resurgence Definition Section
 
-![](assets/images/README.md/home-resurgence-definition-break.png)
+![screenshot of the hive resurgence resurgence definition break in between the hero image and about section](assets/images/README.md/home-resurgence-definition-break.png)
 
-- Text
+- I have used the definition of the word resurgence to give the user an understanding of the meaning and why its important to the brand.
 
 ### About Section
 
-![](assets/images/README.md/home-about-section.png)
+![screenshot of the hive resurgence home page about section](assets/images/README.md/home-about-section.png)
 
-- Text
+- The about section is here to help the user understand the target of the website and the aims we want to achieve. Its placed at the forefront of the website to provide the user with a brief summary of the overall informing projectives.
+
+- The Issues button is located at the end of the text to give the user the option to jump straight into the Issues section of the website and is place here for ease and convenience. The button also highlighted `#daa520` when you hover over it. 
 
 ### Issues Page Features
 
 ### Issues and Break Sections
 
-![](assets/images/README.md/issues-sections-breaks.png)
+![screenshot of the hive resurgence issues page](assets/images/README.md/issues-sections-breaks.png)
 
 - Text
 
@@ -68,19 +70,19 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### Resolution and Break Sections
 
-![](assets/images/README.md/resolution-sections-breaks.png)
+![screenshot of the hive resurgence resolution page](assets/images/README.md/resolution-sections-breaks.png)
 
 - Text
 
 ### Know Your Bees Section
 
-![](assets/images/README.md/resolution-know-your-bees-section-wwf-bee-id-chart-link.png)
+![screenshot of the hive resurgence know your bee section on the resolution page](assets/images/README.md/resolution-know-your-bees-section-wwf-bee-id-chart-link.png)
 
 - Text
 
 ### Charity Section
 
-![](assets/images/README.md/resolution-charity-bee-sover-kit-donate-links.png)
+![screenshot of the hive resurgence charity section on the resolution paage](assets/images/README.md/resolution-charity-bee-sover-kit-donate-links.png)
 
 - Text
 
@@ -88,13 +90,13 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### Newsletter Sign-Up
 
-![](assets/images/README.md/newsletter-page.png)
+![screenshot of the hive resurgence lewsletter page](assets/images/README.md/newsletter-page.png)
 
 - Text
 
 ### Newsletter Sign-Up Confirmation
 
-![](assets/images/README.md/newsletter-page-confirmation.png)
+![screenshot of the hive resurgence newsletter sign-up hidden confirmation page](assets/images/README.md/newsletter-page-confirmation.png)
 
 - Text
 
@@ -102,14 +104,48 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### HTML
 
+- Text
+
 ### CSS
+
+- Text
 
 ### Lighthouse
 
+- Text
+
 ### Desktop Report
 
-![](assets/images/README.md/lighthouse-desktop-report.png)
+![screenshot of the lighthouse desktop report results](assets/images/README.md/lighthouse-desktop-report.png)
 
 ### Mobile Report
 
-![](assets/images/README.md/lighthouse-mobile-report.png)
+![screenshot of the lighthouse mobile report results](assets/images/README.md/lighthouse-mobile-report.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages. the steps to deploy are as follows:
+    - In the GitHub repository, navigate to the settings tab
+    - Select the pages link from the setting menu on the left hand side
+    - Under the GitHub Pages from the source section drop-down menu, select the main branch
+    - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display the indicate the successful deployment
+
+> [Click here to view the live website on GitHub Pages]() Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
+
+## Credits
+
+### Content
+
+- The icons used for the logo, bookmark links, and other various buttons throughout the website were taken from [Font Awesome](https://fontawesome.com/)
+
+- 
+
+### Media
+
+- For all the images used throughout the website, I collected the content from the following websites:
+    - [PxHere](https://pxhere.com)
+    - [Pexels](https://www.pexels.com)
+    - [Unsplash](https://unsplash.com)
+    - [Pixabay](https://pixabay.com)
+
+- Text
