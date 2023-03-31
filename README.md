@@ -8,6 +8,16 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of am i responsive website displaying the hive resurgence home page on four different devices](assets/images/README.md/amiresponsive-displays.png)
 
+## **Color Palette**
+
+![screenshot of the color palette used](assets/images/README.md/color-palette.png)
+
+`#daa520` Used for font awesome logo in the header, highlighted text and buttons throughout when :hover and social network icons in the footer when :hover.
+
+`#3a3a3a` Used for all body text and font awesome social media icons before :hover.
+
+`#347688` Used for all h1 and h2 elements, various buttons throughout and navbar page links before :hover.
+
 ## **Common Features**
 
 ### Navigation Bar
@@ -58,7 +68,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ## **Issues Page Features**
 
-### Issues Section and Breaks
+### Content Section and Breaks
 
 ![screenshot of the hive resurgence issues page](assets/images/README.md/issues-sections-breaks.png)
 
@@ -66,7 +76,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ## **Resolution Page Features**
 
-### Resolution Sections and Breaks
+### Content Sections and Breaks
 
 ![screenshot of the hive resurgence resolution page](assets/images/README.md/resolution-sections-breaks.png)
 
@@ -86,11 +96,15 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ## **Newsletter Sign-Up Page Features**
 
+### Sign-Up Page
+
 ![screenshot of the hive resurgence lewsletter page](assets/images/README.md/newsletter-page.png)
 
 - Text
 
-### Newsletter Sign-Up Confirmation Page Features
+## **Hidden Page**
+
+### Newsletter Sign-Up Confirmation Page
 
 ![screenshot of the hive resurgence newsletter sign-up hidden confirmation page](assets/images/README.md/newsletter-page-confirmation.png)
 
