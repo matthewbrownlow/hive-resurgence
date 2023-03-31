@@ -123,7 +123,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the lighthouse mobile report results](assets/images/README.md/lighthouse-mobile-report.png)
 
-## Deployment
+## **Deployment**
 
 - The site was deployed to GitHub pages. the steps to deploy are as follows:
     - In the GitHub repository, navigate to the settings tab
@@ -133,7 +133,17 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 > [Click here to view the live website on GitHub Pages]() Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
 
-## Credits
+## **Bugs**
+
+- **Bug #1**
+
+    - **Issue:** I have a navbar with with `position: sticky;`. I have a div with `position: relative;` and a div nested inside that div with `position: absolute;`. When scrolling, the div with `position: relative;` puts itself above the navbar.
+
+    - **Fix:** I added `z-index: 1;` to the header. I found the answer here: [Stack Overflow: Z-Index](https://stackoverflow.com/questions/66292396/is-it-possible-to-keep-relative-elements-below-a-sticky-navbar)
+
+- **Bug #2**
+
+## **Credits**
 
 ### Content
 
@@ -142,6 +152,8 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 - The font used throughout the website was imported from [Google Fonts](https://fonts.google.com/)
     - Oxygen - Light 300
     - Lato - Light 300
+
+- Text
 
 ### Media
 
