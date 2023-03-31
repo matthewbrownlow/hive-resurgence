@@ -26,18 +26,80 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - The navigation bar is fully responsive; for smaller screens (500px down), the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between (800px down), there is a staggered change through the use of media queries in order to maximise its size.
 
-- All features of the navigation bar includes 
+- All features of animation the navigation bar includes are highlighted text and an increase in text scale size (zoom) when you hovering over the navigation list items.
+
+### Footer
 
 ![screenshot of the hive resurgence footer](assets/images/README.md/footer-social-networks-legal.png)
 
-- Footer
-    
-    - Text
+- Text
 
 ### Home Page Features
 
+### Hero Image
+
 ![](assets/images/README.md/home-hero-image.png)
 
-- Hero Image
+- Text
 
-    - Text
+### Resurgence Definition Section
+
+![](assets/images/README.md/home-resurgence-definition-break.png)
+
+- Text
+
+### About Section
+
+![](assets/images/README.md/home-about-section.png)
+
+- Text
+
+### Issues Page Features
+
+### Issues and Break Sections
+
+![](assets/images/README.md/issues-sections-breaks.png)
+
+- Text
+
+### Resolution Page Features
+
+### Resolution and Break Sections
+
+![](assets/images/README.md/resolution-sections-breaks.png)
+
+- Text
+
+### Know Your Bees Section
+
+![](assets/images/README.md/resolution-know-your-bees-section-wwf-bee-id-chart-link.png)
+
+- Text
+
+### Charity Section
+
+![](assets/images/README.md/resolution-charity-bee-sover-kit-donate-links.png)
+
+- Text
+
+### Newsletter Page Features
+
+### Newsletter Sign-Up
+
+![](assets/images/README.md/newsletter-page.png)
+
+- Text
+
+### Newsletter Sign-Up Confirmation
+
+![](assets/images/README.md/newsletter-page-confirmation.png)
+
+- Text
+
+## Validator Testing
+
+### HTML
+
+### CSS
+
+### Lighthouse
