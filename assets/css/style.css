@@ -280,6 +280,10 @@ a:link {
     margin-bottom: 20px;
 }
 
+.newsletter-form > p {
+    color: #fafafa;
+}
+
 .text-input {
     background: transparent;
     color: #fafafa;

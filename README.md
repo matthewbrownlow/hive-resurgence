@@ -9,4 +9,3 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 ![screenshot of am i responsive website displaying the hive resurgence home page on four different devices](assets/images/README.md/amiresponsive-displays.png)
 
 ## Features
-
