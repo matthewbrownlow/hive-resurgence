@@ -349,11 +349,6 @@ footer {
 
 /* media queries */
 
-/* issue - 1515px wide and down */
-@media screen and (max-width: 1515px) {
-
-}
-
 /* for larger to medium screen sizes from tablet, 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
