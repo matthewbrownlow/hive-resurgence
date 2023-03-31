@@ -58,11 +58,15 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ## **Issues Page Features**
 
+### Issues Sections and Breaks
+
 ![screenshot of the hive resurgence issues page](assets/images/README.md/issues-sections-breaks.png)
 
 - Text
 
 ## **Resolution Page Features**
+
+### Resolution Sections and Breaks
 
 ![screenshot of the hive resurgence resolution page](assets/images/README.md/resolution-sections-breaks.png)
 
