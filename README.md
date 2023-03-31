@@ -8,9 +8,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of am i responsive website displaying the hive resurgence home page on four different devices](assets/images/README.md/amiresponsive-displays.png)
 
-## **Features**
-
-### Common Features
+## **Common Features**
 
 ### Navigation Bar
 
@@ -36,7 +34,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - The footer is valuable to the user as it encourages them to keep connected via social media. 
 
-### Home Page Features
+## **Home Features**
 
 ### Hero Image
 
@@ -58,17 +56,13 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - The Issues button is located at the end of the text to give the user the option to jump straight into the Issues section of the website and is place here for ease and convenience. The button also highlighted `#daa520` when you hover over it. 
 
-### Issues Page Features
-
-### Issues and Break Sections
+## **Issues Page Features**
 
 ![screenshot of the hive resurgence issues page](assets/images/README.md/issues-sections-breaks.png)
 
 - Text
 
-### Resolution Page Features
-
-### Resolution and Break Sections
+## **Resolution Page Features**
 
 ![screenshot of the hive resurgence resolution page](assets/images/README.md/resolution-sections-breaks.png)
 
@@ -86,15 +80,13 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - Text
 
-### Newsletter Page Features
-
-### Newsletter Sign-Up
+## **Newsletter Sign-Up Page Features**
 
 ![screenshot of the hive resurgence lewsletter page](assets/images/README.md/newsletter-page.png)
 
 - Text
 
-### Newsletter Sign-Up Confirmation
+### Newsletter Sign-Up Confirmation Page Features
 
 ![screenshot of the hive resurgence newsletter sign-up hidden confirmation page](assets/images/README.md/newsletter-page-confirmation.png)
 
@@ -147,7 +139,9 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - The icons used for the logo, bookmark links, and other various buttons throughout the website were taken from [Font Awesome](https://fontawesome.com/)
 
-- 
+- The font used throughout the website was imported from [Google Fonts](https://fonts.google.com/)
+    - Oxygen - Light 300
+    - Lato - Light 300
 
 ### Media
 
