@@ -26,13 +26,15 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - The navigation bar is fully responsive; for smaller screens (500px down), the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between (800px down), there is a staggered change through the use of media queries in order to maximise its size.
 
-- All features of animation the navigation bar includes are highlighted text and an increase in text scale size (zoom) when you hovering over the navigation list items.
+- All features of animation the navigation bar includes are highlighted (#daa520) text and an increase in text scale size (zoom) when you hovering over the navigation list items.
 
 ### Footer
 
 ![screenshot of the hive resurgence footer](assets/images/README.md/footer-social-networks-legal.png)
 
-- Text
+- The footer features an array of socila network icons from awesome font; each icon has the same highlighted (#daa520) text animation as the navigation links, when you hover over them. The social network icons, when clicked, take you to the corresponding social platforms in a new tab.
+
+- The footer is valuable to the user as it encourages them to keep connected via social media. 
 
 ### Home Page Features
 
@@ -103,3 +105,11 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 ### CSS
 
 ### Lighthouse
+
+### Desktop Report
+
+![](assets/images/README.md/lighthouse-desktop-report.png)
+
+### Mobile Report
+
+![](assets/images/README.md/lighthouse-mobile-report.png)
