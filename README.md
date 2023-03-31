@@ -12,9 +12,9 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### Common Features
 
-![screenshot of the hive resurgence navigation bar](assets/images/README.md/header-logo-nav.png)
-
 ### Navigation Bar
+
+![screenshot of the hive resurgence navigation bar](assets/images/README.md/header-logo-nav.png)
 
 - The navigation bar features a consistent design across all four pages keeping with convention with a logo on the left hand side and the navigation links to the right when the screen width is above 1200px wide to allow for easy of navigation.
 
