@@ -110,7 +110,9 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the hive resurgence lewsletter page](assets/images/README.md/newsletter-page.png)
 
-- Text
+- This page utilises a full length image taken from [Pexels](https://www.pexels.com) as its background for the sign-up section.
+
+- We have four `<input>` elements, `First Name` text type, `Last Name` text type, `Email Address` text type and a `Submit` submit button type. The subit button has a repetition style from other pages on the website; Staticly `#347688` but `Goldenrod` when hovered `:hover` over.
 
 ## **Hidden Page**
 
