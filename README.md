@@ -12,11 +12,11 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the color palette used](assets/images/README.md/color-palette.png)
 
-`#daa520` Used for font awesome logo in the header, highlighted text and buttons throughout when :hover and social network icons in the footer when :hover.
+`#daa520` Used for font awesome logo in the header, highlighted text and buttons throughout when `:hover` and social network icons in the footer when `:hover`.
 
-`#3a3a3a` Used for all body text and font awesome social media icons before :hover.
+`#3a3a3a` Used for all `body` text and font awesome social media icons before `:hover`.
 
-`#347688` Used for all h1 and h2 elements, various buttons throughout and navbar page links before :hover.
+`#347688` Used for all `h1` and `h2` elements, various buttons throughout and navbar page links before `:hover`.
 
 ## **Common Features**
 
@@ -161,6 +161,10 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - **Bug #2**
 
+    - **Issue:** The hero image didn't fit the div container on an ultra-wide monitor.
+
+    - **Fix:** I added an `<img>` tag to the `index.html` file instead of the background declaration that was initially assigned to the div in `style.css`. Targeting the `<img>` tag with the `object-fit: cover;`property. I found the answer here: [W3Schools - Object-fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
+
 ## **Credits**
 
 ### Content
@@ -171,7 +175,12 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
     - Oxygen - Light 300
     - Lato - Light 300
 
-- Text
+- Websites that have helped with multiple issues:
+    - [Stack Overflow](https://stackoverflow.com/)
+    - [YouTube - Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
+        - [Zoom Animation](https://www.youtube.com/watch?v=YszONjKpgg4) `.zoom:hover`
+    - [W3Schools](https://www.w3schools.com/)
+        - [Favicon](https://www.w3schools.com/html/html_favicon.asp) `<link rel="icon" type="image/x-icon" href="assets/images/html favicon logo/hive-resurgence-logo.png”>`
 
 ### Media
 
