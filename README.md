@@ -72,7 +72,13 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the hive resurgence issues page](assets/images/README.md/issues-sections-breaks.png)
 
-- Text
+- The [Issues](issues.html) page is made up of different segments as identified by the comments in the [Issues](issues.html) file.
+
+- Following the same layout as the [Home](index.html) file, the [Issues](issues.html) file uses the same coloring, stylings and section design.
+
+- The `Breaks` as identified by the comments in the [Issues](issues.html) file are plainly seperators with `Did you know...` facts about bees relative to the website subject.
+
+- Each section of the Issues page is divided equily with their own sub-topic of awareness.
 
 ## **Resolution Page Features**
 
@@ -80,7 +86,9 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the hive resurgence resolution page](assets/images/README.md/resolution-sections-breaks.png)
 
-- Text
+- The [Resolution](resolution.html) page follows the same layout, stylings and rules as the [Issues](issues.html) file.
+
+- The `Breaks` inbetween the informative sections as also `Did you know...` facts about bees relative to the website subject.
 
 ### Know Your Bees Section
 
@@ -114,13 +122,28 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
 
-- Issue found:
-
-    - Text
-
-- Solution Used:
-
-    - Text
+- [Home page](index.html)
+    - **Error:** The element `<button>` must not appear as a descendant of the `<a>` element.
+        - I decided not to fix this as it didn't seem to be an issue and the button worked as intended.
+    - **Info:** Trailing slash on void elements has no effect and inteeracts badly unquoted attribute values.
+        - I removed the the `/` on line 102.
+- [Issues page](issues.html)
+    - **Warning:** x7 Consider using the `h1` element as a top-level heading only (all `h1` elements are treated as top-level headings by many screen readers and other tools).
+        - I decided to leave the `h1` elements as they are.
+    - **Error:** End tag `<span>` seen, but were open elements.
+        - I swapped the two closing tags (`</span>` and `</i>`).
+        - This created 2x other **Error:** messages: Unclosed element `<i>` & No `<i>` element in scope but a `<i>` end tag seen. This was fixed when the `</span>` and `<i>` was swapped around.
+- [Resolution page](resolution.html)
+    - **Error:** x3 The element `<button>` must not appear as a descendant of the `<a>` element.
+        - I decided not to fix this as it didn't seem to be an issue and the button worked as intended.
+    - **Warning:** x7 Consider using the `h1` element as a top-level heading only (all `h1` elements are treated as top-level headings by many screen readers and other tools).
+        - I decided to leave the `h1` elements as they are.
+- [Newsletter page](newsletter.html)
+    - **Error:** Bad value `" "` for attribute `method` on element `<form>`.
+        - I added the text `newsletter-confirmation.html` to the `method=" "` attribute.
+- [Newsletter confirmation (hidden page)](newsletter-confirmation.html)
+    - **Error:** The element `<button>` must not appear as a descendant of the `<a>` element.
+        - I decided not to fix this as it didn't seem to be an issue and the button worked as intended.
 
 ### [W3C CSS Validatior](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
@@ -131,7 +154,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ### Lighthouse
 
-- Text
+I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report.
 
 ### Desktop Report
 
@@ -163,7 +186,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
     - **Issue:** The hero image didn't fit the div container on an ultra-wide monitor.
 
-    - **Fix:** I added an `<img>` tag to the `index.html` file instead of the background declaration that was initially assigned to the div in `style.css`. Targeting the `<img>` tag with the `object-fit: cover;`property. I found the answer here: [W3Schools - Object-fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
+    - **Fix:** I added an `<img>` tag to the `index.html` file instead of the background declaration that was initially assigned to the div in `style.css`. Targeting the `<img>` tag with the `object-fit: cover;` property. I found the answer here: [W3Schools - Object-fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
 
 ## **Credits**
 
@@ -178,9 +201,14 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 - Websites that have helped with multiple issues:
     - [Stack Overflow](https://stackoverflow.com/)
     - [YouTube - Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
-        - [Zoom Animation](https://www.youtube.com/watch?v=YszONjKpgg4) `.zoom:hover`
+        - [Zoom Animation](https://www.youtube.com/watch?v=YszONjKpgg4) `class='zoom'` in Markup and `.zoom:hover` in CSS.
+        - [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) `display: flexbox;`
+        - [Positioning](https://www.youtube.com/watch?v=jx5jmI0UlXU&t=335s) `position: absolute;` to the nested element and `position: relative;` to the parent element.
     - [W3Schools](https://www.w3schools.com/)
         - [Favicon](https://www.w3schools.com/html/html_favicon.asp) `<link rel="icon" type="image/x-icon" href="assets/images/html favicon logo/hive-resurgence-logo.png”>`
+        - [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) `object-fit: cover;`
+    - [HubSpot](https://blog.hubspot.com/)
+        - [Fade-In Animation](https://blog.hubspot.com/website/css-fade-in) `class='fade-in'` in Markup and `animation: fadeIn 1s;` in CSS.
 
 ### Media
 
@@ -190,4 +218,4 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
     - [Unsplash](https://unsplash.com)
     - [Pixabay](https://pixabay.com)
 
-- Text
+<!-- FIN. -->
