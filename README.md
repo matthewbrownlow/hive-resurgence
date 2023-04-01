@@ -94,7 +94,7 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the hive resurgence know your bee section on the resolution page](assets/images/README.md/resolution-know-your-bees-section-wwf-bee-id-chart-link.png)
 
-- Text
+- This section has a `<button>` with the value [Bee Identification Chart](https://www.wwf.org.uk/sites/default/files/2020-05/Bee%20ID_2.pdf) linking it to an external web PDF file taken from [WWF](https://support.wwf.org.uk/) website.
 
 ### Charity Section
 
@@ -198,7 +198,7 @@ I generated a lighthouse report for the deployed site through the Google Chrome 
     - Oxygen - Light 300
     - Lato - Light 300
 
-- Websites that have helped with multiple issues:
+- Websites that have helped with issues, research and fact finding:
     - [Stack Overflow](https://stackoverflow.com/)
     - [YouTube - Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
         - [Zoom Animation](https://www.youtube.com/watch?v=YszONjKpgg4) `class='zoom'` in Markup and `.zoom:hover` in CSS.
@@ -209,6 +209,10 @@ I generated a lighthouse report for the deployed site through the Google Chrome 
         - [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) `object-fit: cover;`
     - [HubSpot](https://blog.hubspot.com/)
         - [Fade-In Animation](https://blog.hubspot.com/website/css-fade-in) `class='fade-in'` in Markup and `animation: fadeIn 1s;` in CSS.
+    - [WWF](https://support.wwf.org.uk/)
+        - [Save UK Nature](https://support.wwf.org.uk/uk-nature)
+    - [Friends of the Earth](https://friendsoftheearth.uk/)
+        - [Save our bees](https://friendsoftheearth.uk/bees)
 
 ### Media
 
