@@ -114,13 +114,17 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 - We have four `<input>` elements, `First Name` text type, `Last Name` text type, `Email Address` text type and a `Submit` submit button type. The subit button has a repetition style from other pages on the website; Staticly `#347688` but `Goldenrod` when hovered `:hover` over.
 
+- With `required` being present inside the `<input>` element, this means the submit button cannot be action until the relevant text has been entered into the corresponding fields.
+
 ## **Hidden Page**
 
 ### Newsletter Sign-Up Confirmation Page
 
 ![screenshot of the hive resurgence newsletter sign-up hidden confirmation page](assets/images/README.md/newsletter-page-confirmation.png)
 
-- Text
+- Once the fields on the [Newsletter](newsletter.html) have been filled out corrctly, pressing the `Submit` button takes you to this copied version of the newsletter page that doesn't have a form present, but a `Thank You For Subscriving!` message and relevant text.
+
+- A `Home` button is also present withthe same stylings as all the buttons on this website (Staticly `#347688` but `Goldenrod` when hovered `:hover` over) that takes you straight back to the home page.
 
 ## **Validator Testing**
 
