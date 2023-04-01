@@ -100,7 +100,9 @@ Hive Resurgence is a site all about raising awareness around the bee crisis here
 
 ![screenshot of the hive resurgence charity section on the resolution paage](assets/images/README.md/resolution-charity-bee-sover-kit-donate-links.png)
 
-- Text
+- This section has a 2x `<button>` with the values [Bee Saver Kit](https://friendsoftheearth.uk/donate/bee-saver-kit) & [Donate](https://friendsoftheearth.uk/donate/donate) linking both buttons to these pages on the [Friends of the Earth](https://friendsoftheearth.uk/) website.
+
+- This section also displays the Friends of the Earth original logo in navy blue representing this organisation.
 
 ## **Newsletter Sign-Up Page Features**
 
@@ -213,6 +215,8 @@ I generated a lighthouse report for the deployed site through the Google Chrome 
         - [Save UK Nature](https://support.wwf.org.uk/uk-nature)
     - [Friends of the Earth](https://friendsoftheearth.uk/)
         - [Save our bees](https://friendsoftheearth.uk/bees)
+        - [Bee Saver Kit](https://friendsoftheearth.uk/donate/bee-saver-kit)
+        - [Donate](https://friendsoftheearth.uk/donate/donate)
 
 ### Media
 
