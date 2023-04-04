@@ -1,6 +1,6 @@
 # Hive Resurgence
 
- > [Click here to view the live website on GitHub Pages]() Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
+ > [Click here to view the live website on GitHub Pages](https://matthewbrownlow.github.io/hive-resurgence/) Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
 
 ## **Introduction**
 
@@ -180,7 +180,7 @@ I generated a lighthouse report for the deployed site through the Google Chrome 
     - Under the GitHub Pages from the source section drop-down menu, select the main branch
     - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display the indicate the successful deployment
 
-> [Click here to view the live website on GitHub Pages]() Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
+> [Click here to view the live website on GitHub Pages](https://matthewbrownlow.github.io/hive-resurgence/) Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
 
 ## **Bugs**
 
